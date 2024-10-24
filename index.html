@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> assignment 13</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        body,html {
+
+            width: 100%;
+            height: 100vh;
+
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            background: #fff;
+            gap: 2rem;
+
+        }
+
+        .box {
+            width: 350px;
+            height: 460px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0px 2px 0.5px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        img {
+            width: 100%;
+            background-size: cover;
+            border-radius: 10px;
+        }
+
+        .box h1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            padding: 1rem;
+            text-transform: capitalize;
+            color: #007bff;
+        }
+
+        .box p {
+
+            font-size: 1rem;
+            font-weight: 400;
+            padding: 0 1rem;
+            color: #666;
+            text-align: justify;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 0.8rem 1rem;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 1rem 7rem;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #0069d9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="pic1.jpg" alt="">
+            <div class="info">
+                <h1>audi</h1>
+                <p> Audi is a luxury car manufacturer founded in 1909, based in Ingolstadt, Germany, and known for
+                    high-quality sedans, SUVs, and electric vehicles.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="pic2.jpg" alt="">
+            <div class="info">
+                <h1>Sport</h1>
+                <p> A sports car is a high-performance vehicle designed for speed, agility, and precise handling, featuring a sleek design and advanced technology.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="pic3.jfif" alt="">
+            <div class="info">
+                <h1>Sport</h1>
+                <p> 
+                    Chevrolet is an American brand known for its wide range of vehicles, including sedans, trucks, SUVs, and and high-performance sports cars.like the Corvette .</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
